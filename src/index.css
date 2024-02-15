@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;        
+  background-image: url("https://i.ibb.co/pyCj18g/desktop-wallpaper-interdimensional-rss-the-rick-and-morty-podcast-rick-and-morty-universe-transforme.jpg");
+  background-attachment: fixed;
+  background-size:cover; /* Ajusta la imagen sin estirarla ni recortarla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

@@ -1,0 +1,13 @@
+.imagen{
+    width: 58%; /* Puedes ajustar el porcentaje según el tamaño deseado */
+    height: auto;
+    border: 5px solid #a31414; /* Ancho, estilo y color del borde */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    overflow: hidden;
+}
+
+.text{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

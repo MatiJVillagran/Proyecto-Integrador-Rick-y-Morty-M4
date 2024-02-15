@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.containerselec{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 3px;
+    
+}
+
+.selector{
+    align-self: start;
+    justify-content: center;
+    align-items:flex-end;
+    height: 5vh;
+    margin-top: 20px;
+    text-align: justify;
+    background-color: rgba(116, 108, 108, 0.24); /* Ajusta el valor alfa (0.5 en este caso) para la transparencia */
+    padding: 7px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 3px; /* Agrega bordes redondeados si lo deseas */
+    font-weight: bolder;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: rgb(180, 180, 8);
+}
+
+
+.opcion{
+    color: rgb(180, 180, 8);
+    background-color: rgba(116, 108, 108, 0.24);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+opcion:hover { color:rgb(180, 180, 8); background-color:rgba(116, 108, 108, 0.24) }

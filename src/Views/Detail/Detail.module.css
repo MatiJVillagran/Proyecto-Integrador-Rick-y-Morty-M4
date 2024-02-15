@@ -1,0 +1,41 @@
+.imagen {
+    
+    border: 4px solid #333; /* Ancho, estilo y color del borde */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    overflow: hidden; /* Asegura que el borde rodee completamente la imagen */
+  }
+
+
+  .datos{
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+    margin-top: 40px; 
+  }
+
+  .container{
+    background-color: rgba(116, 108, 108, 0.24); /* Ajusta el valor alfa (0.5 en este caso) para la transparencia */
+    padding: 20px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 5px; /* Agrega bordes redondeados si lo deseas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* margin-right: 20px;
+    margin-right: 180px;
+    margin-top: 50px; */
+    /* float: right; */
+    overflow: auto;
+  }
+
+  .name{
+    font-size: 35px;
+    color: white;
+    margin-top: 5px;
+    overflow: auto;
+  }
+
+  .detallecomp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content:space-around ;
+    margin-top: 50px;
+  }

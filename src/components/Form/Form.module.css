@@ -1,0 +1,75 @@
+
+.img{
+    width: 35%; /* Puedes ajustar el valor según tus necesidades */
+    height: auto; /* Para mantener la proporción original */
+    margin:3px;
+}
+
+.label{
+    padding: 3px;
+    color: white;
+    display: block;
+    margin-bottom: 2px;
+    margin:3px;
+    
+}
+
+.casilla{
+    padding: 0px;
+    width: 50%;
+    margin: 3px;
+}
+
+.errorMail{
+margin: 3px;
+position:absolute;
+top: 100%; /* Coloca el span debajo del input */
+left: 45px;
+color: red;
+text-align: center;
+}
+
+.errorPassword{
+    margin:3px;
+    position:absolute;
+    top: 100%; /* Coloca el span debajo del input */
+    left: 35px;
+    color: red;
+    text-align: center;
+    }
+
+.container{
+    background-color: rgba(116, 108, 108, 0.24); /* Ajusta el valor alfa (0.5 en este caso) para la transparencia */
+    padding: 27px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 5px; /* Agrega bordes redondeados si lo deseas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-left: 430px;
+    margin-right: 430px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-self: auto;
+    
+  }
+
+  .inputContainer {
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+    position: relative;
+  }
+
+  .Btn {
+    padding: 10px;
+    margin: 3px;
+    margin-top: 30px;
+    background-color: #4CAF50;
+    color: rgb(232, 214, 12);
+    border: 1px solid #4CAF50;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bolder;
+    
+}
+
+.Btn:hover {
+    background-color: #45a049;
+}
