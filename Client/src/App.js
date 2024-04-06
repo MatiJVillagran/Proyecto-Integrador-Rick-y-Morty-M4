@@ -68,6 +68,7 @@ function App() {
             setCharacters((characters) => [...characters, response.data]);
           } else {
             window.alert("¡No hay personajes con este ID!");
+            return;
           }
         }else {
         window.alert("¡Personaje ya existente!");

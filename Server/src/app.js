@@ -1,6 +1,7 @@
 const express= require ("express");
 const server= express();
 const myRouter= require ("./routes/indexR");
+const morgan= require("morgan");
 
 
 
@@ -17,6 +18,8 @@ server.use((req, res, next) => { //middleware
     );
     next();
  });
+
+ server.use (morgan("dev"));
 
 server.use(express.json());//middleware
 
